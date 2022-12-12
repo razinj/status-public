@@ -4,10 +4,13 @@ repo: status-public
 sites:
   - name: RAZINJ Dev
     url: https://razinj.dev
+    method: GET
   - name: RAZINJ Website
     url: https://razinj.com
+    method: GET
   - name: VitaExp Website
     url: https://razinj.com
+    method: GET
 
 assignees:
   - razinj
