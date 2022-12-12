@@ -2,13 +2,29 @@ owner: razinj
 repo: status-public
 
 sites:
-  - name: Cloudflare DNS 1
-    check: "tcp-ping"
+  - name: Cloudflare 1.1.1.1
+    check: 'tcp-ping'
     url: 1.1.1.1
     port: 53
-  - name: Cloudflare DNS 2
-    check: "tcp-ping"
+  - name: Cloudflare 1.0.0.1
+    check: 'tcp-ping'
     url: 1.0.0.1
+    port: 53
+  - name: Cloudflare 1.1.1.2
+    check: 'tcp-ping'
+    url: 1.1.1.2
+    port: 53
+  - name: Cloudflare 1.0.0.2
+    check: 'tcp-ping'
+    url: 1.0.0.2
+    port: 53
+  - name: Cloudflare 1.1.1.3
+    check: 'tcp-ping'
+    url: 1.1.1.3
+    port: 53
+  - name: Cloudflare 1.0.0.3
+    check: 'tcp-ping'
+    url: 1.0.0.3
     port: 53
 
 assignees:
@@ -22,6 +38,3 @@ status-website:
       href: /status-public
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
