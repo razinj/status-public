@@ -2,15 +2,14 @@ owner: razinj
 repo: status-public
 
 sites:
-  - name: RAZINJ Dev
-    url: https://razinj.dev
-    method: GET
-  - name: RAZINJ Website
-    url: https://razinj.com
-    method: GET
-  - name: VitaExp Website
-    url: https://razinj.com
-    method: GET
+  - name: Cloudflare DNS 1
+    check: "tcp-ping"
+    url: 1.1.1.1
+    port: 53
+  - name: Cloudflare DNS 2
+    check: "tcp-ping"
+    url: 1.0.0.1
+    port: 53
 
 assignees:
   - razinj
@@ -18,7 +17,6 @@ assignees:
 status-website:
   baseUrl: /status-public
   name: RAZINJ Status
-  introMessage: "Public **RAZINJ** services status page"
   navbar:
     - title: Status
       href: /status-public
