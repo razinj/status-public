@@ -14,13 +14,11 @@ assignees:
 
 status-website:
   baseUrl: /status-public
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Public RAZINJ Services Status
-  introTitle: "**introTitle** here."
-  introMessage: introMessage here.
+  name: RAZINJ Status
+  introMessage: "Public **RAZINJ** services status page"
   navbar:
     - title: Status
-      href: /
+      href: /status-public
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
