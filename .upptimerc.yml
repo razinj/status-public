@@ -38,3 +38,6 @@ status-website:
       href: /status-public
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+i18n:
+  footer: [RAZINJ](https://razinj.com)
