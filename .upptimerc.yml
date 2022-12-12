@@ -40,4 +40,4 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 
 i18n:
-  footer: This page is [open source]($REPO)
+  footer: Owned by [RAZINJ](https://razinj.com)
