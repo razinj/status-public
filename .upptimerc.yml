@@ -41,3 +41,7 @@ status-website:
 
 i18n:
   footer: Owned by [RAZINJ](https://razinj.com)
+
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
