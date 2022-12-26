@@ -31,14 +31,15 @@ assignees:
   - razinj
 
 status-website:
-  name: RAZINJ Status
+  name: RAZINJ Public Status
   theme: night
   baseUrl: /status-public
   navbar:
-    - title: Status
+    - title: Home
       href: /status-public
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  metaTags:
+    - name: 'robots'
+      content: 'noindex'
 
 i18n:
   footer: Owned by [RAZINJ](https://razinj.com)
