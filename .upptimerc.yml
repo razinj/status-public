@@ -33,6 +33,7 @@ assignees:
 status-website:
   baseUrl: /status-public
   name: RAZINJ Status
+  theme: dark
   navbar:
     - title: Status
       href: /status-public
