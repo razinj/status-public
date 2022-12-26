@@ -4,7 +4,7 @@ repo: status-public
 sites:
   - name: Cloudflare 1.1.1.1
     check: 'tcp-ping'
-    url: 1.1.1.1111
+    url: 1.1.1.1
     port: 53
   - name: Cloudflare 1.0.0.1
     check: 'tcp-ping'
